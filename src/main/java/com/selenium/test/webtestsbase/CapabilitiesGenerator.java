@@ -15,9 +15,9 @@ public class CapabilitiesGenerator {
                     throw new IllegalStateException("System variable 'webdriver.chrome.driver' should be set to path for executable driver");
                 }
                 return DesiredCapabilities.chrome();
-            case IE10:
+            case IE8:
                 DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-                caps.setVersion("10");
+                caps.setVersion("8");
                 return caps;
             case SAFARI:
                 return new DesiredCapabilities();

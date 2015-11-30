@@ -5,7 +5,7 @@ package com.selenium.test.webtestsbase;
 public enum  Browser {
     FIREFOX("firefox"),
     CHROME("chrome"),
-    IE10("ie10"),
+    IE8("ie8"),
     SAFARI("safari");
     private String browserName;
 
